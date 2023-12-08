@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/Nav.vue";
+---
+
+<Layout title="Welcome to Astro.">
+  <div
+    class="relative dark:text-white dark:bg-dark py-4 px-4 lg:px-8 min-h-screen"
+  >
+    <header class="my-4 md:my-8">
+      <Nav />
+    </header>
+    <main class="mx-auto w-full md:w-[80%] lg:max-w-[1640px]">
+      <section id="hero" class="py-16">
+        <div class="grid grid-cols-3 grid-rows-4">
+          <div class="bg-[radial-gradient(circle_at_center, var(--tw-gradient-stops))] row-span-4 justify-self-center self-center bg-gradient">
+            <img class="" src="images/image-1.png" alt="avatar" />
+          </div>
+          <p class="col-span-1">Headline</p>
+          <div class="col-start-2 col-end-4 row-span-2 description">
+            <h1>
+              <span>A developer who</span><br />
+               Who converts user requirements that meet or exceed their
+              expectations
+            </h1>
+          </div>
+          <small class="col-start-2 col-end-4 row-start-4">footnote</small>
+        </div>
+      </section>
+    </main>
+  </div>
+</Layout>
