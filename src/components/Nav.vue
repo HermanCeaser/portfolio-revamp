@@ -37,6 +37,7 @@ const toggleMobileMenu = () => {
                     <li class="px-4">Projects</li>
                     <li class="px-4">Blog</li>
                 </ul>
+                
 
             </div>
         </div>
